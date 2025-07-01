@@ -32,7 +32,6 @@ JavaAPIAutomation/
 ├── pom.xml # Maven project file
 └── README.md # Project documentation
 
-bash
 
 ## 🔧 Setup Instructions
 
@@ -40,40 +39,38 @@ bash
    git clone https://github.com/pranaypanday007/JavaAPIAutomation.git
    cd JavaAPIAutomation
 
-Import Project:
+2. Import Project:
 Open your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
 Import the project as a Maven project.
 
-Install Dependencies:
+3. Install Dependencies:
 Maven will automatically resolve and download necessary dependencies specified in pom.xml.
 
-Configure TestNG:
+4. Configure TestNG:
 Review and modify testng.xml to specify test suites and parameters as needed.
 
-Run Tests:
+5. Run Tests:
 Execute tests via your IDE or using Maven:
 bash: mvn test
 
-📊 Reporting
-TestNG generates default HTML reports located in the test-output directory after test execution.
 
+##   📊 Reporting
+TestNG generates default HTML reports located in the test-output directory after test execution.
 For enhanced reporting, integrate ExtentReports or Allure as needed.
 
-🤝 Contributing
+##   🤝 Contributing
 Contributions are welcome! To contribute:
 
-Fork the repository.
-Create a new branch:
+1.Fork the repository.
+2.Create a new branch:
 bash: git checkout -b feature/YourFeature
-
-Commit your changes:
+3.Commit your changes:
 bash: git commit -m "Add YourFeature"
-
-Push to the branch:
+4.Push to the branch:
 bash: git push origin feature/YourFeature
-Open a pull request detailing your changes.
+5.Open a pull request detailing your changes.
 
-📄 License
+##   📄 License
 This project is licensed under the MIT License.
 
 Developed and maintained by Pranay Panday.
