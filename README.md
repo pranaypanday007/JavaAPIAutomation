@@ -37,19 +37,22 @@ bash
 ## 🔧 Setup Instructions
 
 1. **Clone the Repository**:
-   ```bash
    git clone https://github.com/pranaypanday007/JavaAPIAutomation.git
    cd JavaAPIAutomation
+
 Import Project:
 Open your preferred IDE (e.g., IntelliJ IDEA, Eclipse).
 Import the project as a Maven project.
+
 Install Dependencies:
 Maven will automatically resolve and download necessary dependencies specified in pom.xml.
+
 Configure TestNG:
 Review and modify testng.xml to specify test suites and parameters as needed.
+
 Run Tests:
 Execute tests via your IDE or using Maven:
-bash mvn test
+bash: mvn test
 
 📊 Reporting
 TestNG generates default HTML reports located in the test-output directory after test execution.
